@@ -35,12 +35,12 @@ let yourAge;
 let referralSource;
 let mayWeContactYou;
 
-// STEP 5 ???
+// STEP 5
 // demonstrate 3 ways for declaring and assigning values to 3 of those variables
 
-var firstName = 'Jane';
-let lastName = 'Dow';
-const zipCode = '994090';
+const firstName = 'Jane'; // string
+let yourAge = 150;        // number
+var mayWeContactYou = false;  // Boolean
 
 // STEP 6
 //  create a variable:
