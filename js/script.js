@@ -1,46 +1,46 @@
 // STEP 1 
 // convert the followind identifiers to Camel Case notation:
 
-let someMonth;
+// let someMonth;
 // function theMonth();
-let currentMonth;
-let summerMonth;
-let myLibraryFunction;
+// let currentMonth;
+// let summerMonth;
+// let myLibraryFunction;
 
 // STEP 2
 // example of a numeric literal expression, a string literal expression, a Boolean literal expression, and a null literal expression.
 
-3.14                    // numeric literal
-'literal expression'    // string literal expression
-true                    // Boolean literal expression
-null                    // null literal expression
+// 3.14                    // numeric literal
+// 'literal expression'    // string literal expression
+// true                    // Boolean literal expression
+// null                    // null literal expression
 
 // STEP 3
 // two examples of complex / variable expressions
 
-let oldMonth = 'January';
-let g = 5;
-let a = g + 12 * g;
+// let oldMonth = 'January';
+// let g = 5;
+// let a = g + 12 * g;
 
 // STEP 4
 // Declare (but do not assign) 9 variables for the following identifiers: First Name, Last Name, Address, City, State, Zip Code, Your Age, Referral Source, May We Contact You. Use Camel Casing and Hungarian Notation when naming your identifiers
 
 // let firstName;
 // let lastName;
-let address;
-let city;
-let state;
+// let address;
+// let city;
+// let state;
 // let zipCode;
-let yourAge;
-let referralSource;
-let mayWeContactYou;
+// let yourAge;
+// let referralSource;
+// let mayWeContactYou;
 
 // STEP 5
 // demonstrate 3 ways for declaring and assigning values to 3 of those variables
 
-const firstName = 'Jane'; // string
-let yourAge = 150;        // number
-var mayWeContactYou = false;  // Boolean
+// const firstName = 'Jane'; // string
+// let yourAge = 150;        // number
+// var mayWeContactYou = false;  // Boolean
 
 // STEP 6
 //  create a variable:
@@ -68,45 +68,45 @@ window.console.log(example2); // 6
 // STEP 8
 // Is the following string literal valid? If not, how would you fix it?
 // using excape character '\'
-let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
+// let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
 
-window.console.log(someString);
+// window.console.log(someString);
 
 // STEP 9
 //  Create a variable that produces a null value in the console window. 
-let background = null;
-console.log(background);
+// let background = null;
+// console.log(background);
 
 // Then, create a variable that produces an undefined value in the console window.
-let text;
-console.log(text);
+// let text;
+// console.log(text);
 
 // STEP 10
 //  Use the unary typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined.
 
-console.log(typeof('Tuesday')); // string
-console.log(typeof(10)); // number
-console.log(typeof(true)); // Boolean
-console.log(typeof({firstName: 'Jane'})); // object
-console.log(typeof(undefined)); // undefined
-console.log(typeof(island)); // undefined
+// console.log(typeof 'Tuesday'); // string
+// console.log(typeof 10); // number
+// console.log(typeof true); // Boolean
+// console.log(typeof {firstName: 'Jane'} ); // object
+// console.log(typeof undefined); // 1st undefined
+// console.log(typeof island); // 2nd undefined
 
 // STEP 11
 // Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows: 
 // Substitute my name for your name and use 2 concatenation operators to construct this string of text. One after the text “Hello” and a second one after your name and before the comma.
 
-alert('Hello ' + 'Jane Doe' + ', welcome to the JavaScript class!');
+// alert('Hello ' + 'Jane Doe' + ', welcome to the JavaScript class!');
 
 // STEP 12
 // Declare a variable called name and set it equal to your name. Substitute your name in the previous alert string with the variable instead.
 
-let name = 'Jane Doe';
-alert('Hello ' + name + ', welcome to the JavaScript class!');
+// let name = 'Jane Doe';
+// alert('Hello ' + name + ', welcome to the JavaScript class!');
 
 // STEP 13
 // Declare a variable called course and set it equal to “JavaScript”. 
 
-let course = 'JavaSrcript';
+// let course = 'JavaSrcript';
 
 // Rework your alert string so that it displays the string of text but using the variables as opposed to hard coded text.
 
@@ -155,28 +155,30 @@ let course = 'JavaSrcript';
 // STEP 20
 // Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
 
-let x = 20%3;
+// let x = 20%3;
 
 // Divide and assign 1 to that variable and display the result in the console window. 
-x/=1;
+
+// x/=1;
+
 // The result should be 2. If you got 6.66 try again.
-console.log(x)
+// console.log(x)
 
 // STEP 21
 // Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
 
-let c = 10;
-let b = 5;
+// let c = 10;
+// let b = 5;
 
-let result = c <= 10 || b <= 10;
-console.log(result);
+// let result = c <= 10 || b <= 10;
+// console.log(result);
 
 // STEP 22
 // Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
 
-let z = 25;
-let y = 100;
+// let z = 25;
+// let y = 100;
 
-let result2 = z>= 50 && y== 100
-console.log(result2)
+// let result2 = z>= 50 && y== 100
+// console.log(result2)
 
